@@ -14,5 +14,6 @@ require 'pry'
     :percent_funded => project.css("li.first.funded strong").text.gsub("%","").to_i
     }
   end
-  
+  projects
+end
   
